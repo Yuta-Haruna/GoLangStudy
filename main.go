@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "basicMethodTest"
+	"GoLangStudy/basicMethodTest"
+)
 
 func main() {
 	fmt.Printf("Hello world\n")
+
+	basicMethodTest.Aaa()
 }
