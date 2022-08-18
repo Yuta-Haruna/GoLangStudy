@@ -93,3 +93,27 @@ func sampleSwitch() {
 	}
 
 }
+
+/*
+下記メソッドはメソッド名の先頭が小文字のため内部でしか使えない
+*/
+func variable02() {
+
+	fmt.Println("variable02 を利用している")
+
+	text := "variable02"
+	fmt.Println(text)
+
+	var i = 0
+	fmt.Println(i)
+
+	var j int = 0
+	fmt.Println(j)
+
+
+	// 最後に実行
+	defer fmt.Println("hello world")
+	// 配列
+	[3]int = {1,2,3}
+
+}

@@ -1,11 +1,15 @@
 package forloopsample
 
+import (
+	"fmt"
+)
 
-func ForSample(){
+func ForSample() {
 
-	var f = 
+	f := 10
 
+	for i := 0; i < f; i++ {
+		fmt.Println(i)
+	}
 
 }
-
-
