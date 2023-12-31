@@ -110,10 +110,9 @@ func variable02() {
 	var j int = 0
 	fmt.Println(j)
 
-
 	// 最後に実行
 	defer fmt.Println("hello world")
 	// 配列
-	[3]int = {1,2,3}
+	// [3]int = {1,2,3}
 
 }
