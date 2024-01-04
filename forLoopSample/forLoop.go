@@ -4,7 +4,10 @@ import (
 	"fmt"
 )
 
-func ForSample() {
+/**
+ *
+ */
+func forSample() {
 
 	f := 10
 
