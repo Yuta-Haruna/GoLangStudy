@@ -4,8 +4,9 @@ import (
 	"fmt"
 	// "basicMethodTest"
 	hello "GoLangStudy/Hello"
-	variable "GoLangStudy/Variable"
+	// variable "GoLangStudy/Variable"
 	"GoLangStudy/basicMethodTest"
+	forMethod "GoLangStudy/src/forMethod"
 )
 
 func main() {
@@ -19,9 +20,8 @@ func main() {
 	fmt.Println("Goodnight: " + name)
 
 	// 変数　テスト用
-	variable.Samplevariable()
+	// variable.Samplevariable()
 
-	// 下記メソッドは公開されていないので使えない
-	// variable.samplevariable()
-
+	// srcファイル直下の関数群
+	forMethod.ForRealSample()
 }
