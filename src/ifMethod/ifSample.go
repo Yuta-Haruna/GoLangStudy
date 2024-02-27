@@ -12,7 +12,7 @@ func ifSample01(x, y int) string {
 	} else if x >= 0 {
 		ans += strconv.Itoa(x) + " : は0以上"
 		if y >= 0 {
-			ans += "　かつ　" + strconv.Itoa(y) + " : も0以上やで"
+			ans += " かつ " + strconv.Itoa(y) + " : も0以上やで"
 		}
 	} else if y >= 0 {
 		return strconv.Itoa(y) + " : は0以上(yのみ)"
